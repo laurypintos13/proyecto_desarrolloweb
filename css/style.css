@@ -12,7 +12,10 @@
     }
 }
 /* MENU BOOTSTRAP */
-
+nav{
+    z-index: 100;
+ 
+}
 .container-fluid{
     background-color: rgba(32,33,36,1);
     height: 70px;
@@ -42,6 +45,7 @@
     justify-content: center;
     animation-name: aparecer;
     animation-duration: 2s;
+    
 }
 .mainCover h1{    
     text-align: center;
